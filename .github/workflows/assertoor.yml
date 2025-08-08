@@ -2,8 +2,8 @@ name: Assertoor Tests
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * *'
+  # schedule:
+  #   - cron: '0 0 * * *'
 
 jobs:
   get_tests:
